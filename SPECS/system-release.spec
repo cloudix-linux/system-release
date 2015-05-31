@@ -117,14 +117,10 @@ install -d -m 755 $RPM_BUILD_ROOT/etc/yum/vars/
 # Install banner MOTD script
 install -d -m 755 $RPM_BUILD_ROOT/etc/update-motd.d
 install -m 755 %{SOURCE10} $RPM_BUILD_ROOT/etc/update-motd.d/
-# Also the available updates MOTD scripts
-install -m 755 %{SOURCE11} $RPM_BUILD_ROOT/etc/update-motd.d/
-install -m 755 %{SOURCE12} $RPM_BUILD_ROOT/etc/update-motd.d/
 %endif
 
 # Install cloud-init configuration
 install -d -m 755 $RPM_BUILD_ROOT/etc/cloud/cloud.cfg.d
-install -m 644 %{SOURCE40} $RPM_BUILD_ROOT/etc/cloud/cloud.cfg.d/
 
 # Set up the dist tag macros
 install -d -m 755 $RPM_BUILD_ROOT/etc/rpm
