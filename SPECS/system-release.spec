@@ -167,7 +167,6 @@ rm -rf $RPM_BUILD_ROOT
 #/usr/share/firstboot/modules/eula.py*
 #/usr/share/eula/eula.*
 %dir /etc/pki/rpm-gpg
-/etc/pki/rpm-gpg/*
 # release notes
 %{_docdir}/%name
 %if %{with upstart}
