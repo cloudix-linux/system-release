@@ -79,7 +79,6 @@ usually because they are not relevant to %{product_family}
 
 %prep
 %setup -q -c -T
-cp %{SOURCE20} %{SOURCE21} .
 cp %{SOURCE31} ./GPL
 
 %install
