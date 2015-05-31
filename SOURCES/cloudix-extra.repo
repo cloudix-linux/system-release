@@ -1,0 +1,11 @@
+[cloudix-extra]
+name=cloudix-extra
+baseurl=http://rpm.cloudix-linux.com/extra/
+enabled=0
+gpgcheck=0
+mirror_expire=300
+metadata_expire=300
+priority=10
+fastestmirror_enabled=0
+retries=5
+timeout=10

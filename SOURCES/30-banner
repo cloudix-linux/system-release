@@ -1,0 +1,15 @@
+#!/bin/sh
+version=$(rpm -q --qf '%{version}' system-release)
+cat << EOF
+
+_______________________
+< cloudix Linux $version >
+-----------------------
+       \   ^__^
+        \  (oo)\_______
+           (__)\       )\/\
+               ||----w |
+               ||     ||
+
+http://cloudix-linux.com/
+EOF
